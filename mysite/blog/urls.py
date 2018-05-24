@@ -2,7 +2,7 @@ from django.conf.urls import url
 from . import views
 from django.contrib.auth.views import (
 	login, logout, password_reset, password_reset_done, password_reset_confirm,
-	passwird_reset_complete)
+	password_reset_complete)
 
 urlpatterns = [
 	url(r'^$', views.home),
